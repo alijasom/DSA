@@ -5,8 +5,7 @@ class Solution:
         n=len(nums)
 
         for i in range(n):
-            if nums[i]>0:
-                break
+         
             if i>0 and nums[i]==nums[i-1]:
                 continue
             left=i+1
